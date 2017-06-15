@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:padding="5dp"
+    >
+
+<LinearLayout
+    android:weightSum="100"
+    android:layout_weight="15"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:gravity="center"
+        android:text="List fragment"
+        android:textSize="25sp"
+        android:layout_weight="50"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        tools:ignore="NestedWeights" />
+    <TextView
+        android:gravity="center"
+        android:text="Detail fragment"
+        android:textSize="25sp"
+        android:layout_weight="50"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_weight="85"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <fragment
+        android:layout_margin="5dp"
+        android:id="@+id/fragment"
+        android:name="com.pinaksoftwares.flexiblefragment.FragmentA"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="50" />
+
+    <fragment
+        android:layout_margin="5dp"
+        android:id="@+id/fragment2"
+        android:name="com.pinaksoftwares.flexiblefragment.FragmentB"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="50" />
+</LinearLayout>
+
+</LinearLayout>

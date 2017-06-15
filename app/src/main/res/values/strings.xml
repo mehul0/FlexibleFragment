@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">FlexibleFragment</string>
+
+
+    <string-array name="list">
+        <item>Himachal</item>
+        <item>Nenital</item>
+        <item>Goa</item>
+        <item>Kashmir</item>
+        <item>Mount Abu</item>
+        <item>Aandaman</item>
+    </string-array>
+
+    <string-array name="list_description">
+        <item>Himachal Pradesh literally meaning “the land in the lap of Himalayas”. With Himachal Tour Packages, explore picturesque hill stations, gushing waterfalls, abundant wildlife, emerald lakes, Trans Himalayan treks, snowcapped mountains and the barren beauty of upper Himalayas.</item>
+        <item>Nainital is one of the most beautiful places in Uttarakhand. The picturesque beauty is the major reason for tourist to book Nainital Tour Packages throughout the year. Titled as the lake district of India, the hill station is known for its magical lakes, cloud covering peaks, tranquil peace and unrivalled bliss.</item>
+        <item>Goa tour packages, plan your holiday in Goa amidst the swaying palms, white sands and sparkling waters. Savor the delicious cuisine and enjoy the vibrant nightlife. Let go of yourself with the characteristic sussegado. Practice yoga and meditation or reclaim yourself with therapeutic spa sessions at one of the fine luxury hotels in Goa with our Goa packages.</item>
+        <item>What makes holidays in Kashmir so special you ask? From the placid lakes in the valleys to the turquoise and emerald ones at high altitudes in Ladakh surrounded by lofty Himalayan peaks and from the awe inspiring Mughal Garden that were meant to be representation of the Charbagh in Jannat (heaven) to the picturesque valleys in Pahalgam, tour packages in Kashmir is your ticket to paradise indeed!</item>
+        <item>Explore the lone hill station in Rajasthan with our stand alone and mixed Mount Abu tour packages. One of the favored summer destinations in India, Mount Abu is popular not just amidst the Gujaratis and Rajasthanis but visitors from around the world.</item>
+        <item>Andaman creates the image of sun-kissed shores, cerulean waters, warm sunshine, undulating mountains and adrenaline-pumping outdoor activities. Home to some of the most beautiful beaches and islands, Andaman is one of the best places to try your hand at exploring the underwater world. Andaman tour packages give you a chance to explore the ever-popular Ross Island, Havelock Island, Neil Island and Viper Island.</item>
+    </string-array>
+</resources>
